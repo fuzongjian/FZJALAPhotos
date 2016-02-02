@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A6AA02E1C5C8D29009871DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6AA02D1C5C8D29009871DF /* main.m */; };
+		3A6AA0311C5C8D29009871DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6AA0301C5C8D29009871DF /* AppDelegate.m */; };
+		3A6AA0371C5C8D29009871DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6AA0351C5C8D29009871DF /* Main.storyboard */; };
+		3A6AA0391C5C8D29009871DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6AA0381C5C8D29009871DF /* Assets.xcassets */; };
+		3A6AA03C1C5C8D29009871DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6AA03A1C5C8D29009871DF /* LaunchScreen.storyboard */; };
+		3A83AE9C1C5DEC7600CB8ABE /* FZJALAPhotosTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE931C5DEC7600CB8ABE /* FZJALAPhotosTool.m */; };
+		3A83AE9D1C5DEC7600CB8ABE /* FZJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE971C5DEC7600CB8ABE /* FZJViewController.m */; };
+		3A83AE9E1C5DEC7600CB8ABE /* SuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE991C5DEC7600CB8ABE /* SuperViewController.m */; };
+		3A83AE9F1C5DEC7600CB8ABE /* UnderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE9B1C5DEC7600CB8ABE /* UnderTableViewController.m */; };
+		3A83AEA81C5DED2100CB8ABE /* EnterAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AEA61C5DED2100CB8ABE /* EnterAlbumTableViewCell.m */; };
+		3A83AEA91C5DED2100CB8ABE /* EnterAlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A83AEA71C5DED2100CB8ABE /* EnterAlbumTableViewCell.xib */; };
+		3A83AEAC1C5DF5E200CB8ABE /* SmallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AEAB1C5DF5E200CB8ABE /* SmallViewController.m */; };
+		3A83AEB01C5DF7AB00CB8ABE /* SmallCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AEAE1C5DF7AB00CB8ABE /* SmallCollectionViewCell.m */; };
+		3A83AEB11C5DF7AB00CB8ABE /* SmallCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A83AEAF1C5DF7AB00CB8ABE /* SmallCollectionViewCell.xib */; };
+		3A9DCC051C5E1643009012AB /* BigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9DCC041C5E1643009012AB /* BigViewController.m */; };
+		3A9E06361C5EDC21009F6F3A /* FZJBigPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E06341C5EDC21009F6F3A /* FZJBigPhotoCell.m */; };
+		3A9E06371C5EDC21009F6F3A /* FZJBigPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A9E06351C5EDC21009F6F3A /* FZJBigPhotoCell.xib */; };
+		3A9E063A1C5EECC5009F6F3A /* UnderPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E06391C5EECC5009F6F3A /* UnderPhotoModel.m */; };
+		3A9E063E1C5F24A4009F6F3A /* DisplayCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E063C1C5F24A4009F6F3A /* DisplayCollectionViewCell.m */; };
+		3A9E063F1C5F24A4009F6F3A /* DisplayCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A9E063D1C5F24A4009F6F3A /* DisplayCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A6AA0291C5C8D29009871DF /* FZJALAPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZJALAPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6AA02D1C5C8D29009871DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A6AA02F1C5C8D29009871DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A6AA0301C5C8D29009871DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A6AA0361C5C8D29009871DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A6AA0381C5C8D29009871DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A6AA03B1C5C8D29009871DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A6AA03D1C5C8D29009871DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A83AE921C5DEC7600CB8ABE /* FZJALAPhotosTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZJALAPhotosTool.h; sourceTree = "<group>"; };
+		3A83AE931C5DEC7600CB8ABE /* FZJALAPhotosTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZJALAPhotosTool.m; sourceTree = "<group>"; };
+		3A83AE961C5DEC7600CB8ABE /* FZJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZJViewController.h; sourceTree = "<group>"; };
+		3A83AE971C5DEC7600CB8ABE /* FZJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZJViewController.m; sourceTree = "<group>"; };
+		3A83AE981C5DEC7600CB8ABE /* SuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperViewController.h; sourceTree = "<group>"; };
+		3A83AE991C5DEC7600CB8ABE /* SuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperViewController.m; sourceTree = "<group>"; };
+		3A83AE9A1C5DEC7600CB8ABE /* UnderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderTableViewController.h; sourceTree = "<group>"; };
+		3A83AE9B1C5DEC7600CB8ABE /* UnderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderTableViewController.m; sourceTree = "<group>"; };
+		3A83AEA51C5DED2100CB8ABE /* EnterAlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAlbumTableViewCell.h; sourceTree = "<group>"; };
+		3A83AEA61C5DED2100CB8ABE /* EnterAlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAlbumTableViewCell.m; sourceTree = "<group>"; };
+		3A83AEA71C5DED2100CB8ABE /* EnterAlbumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EnterAlbumTableViewCell.xib; sourceTree = "<group>"; };
+		3A83AEAA1C5DF5E200CB8ABE /* SmallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallViewController.h; sourceTree = "<group>"; };
+		3A83AEAB1C5DF5E200CB8ABE /* SmallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallViewController.m; sourceTree = "<group>"; };
+		3A83AEAD1C5DF7AB00CB8ABE /* SmallCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallCollectionViewCell.h; sourceTree = "<group>"; };
+		3A83AEAE1C5DF7AB00CB8ABE /* SmallCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallCollectionViewCell.m; sourceTree = "<group>"; };
+		3A83AEAF1C5DF7AB00CB8ABE /* SmallCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmallCollectionViewCell.xib; sourceTree = "<group>"; };
+		3A9DCC031C5E1643009012AB /* BigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigViewController.h; sourceTree = "<group>"; };
+		3A9DCC041C5E1643009012AB /* BigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigViewController.m; sourceTree = "<group>"; };
+		3A9E06331C5EDC21009F6F3A /* FZJBigPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZJBigPhotoCell.h; sourceTree = "<group>"; };
+		3A9E06341C5EDC21009F6F3A /* FZJBigPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZJBigPhotoCell.m; sourceTree = "<group>"; };
+		3A9E06351C5EDC21009F6F3A /* FZJBigPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FZJBigPhotoCell.xib; sourceTree = "<group>"; };
+		3A9E06381C5EECC5009F6F3A /* UnderPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderPhotoModel.h; sourceTree = "<group>"; };
+		3A9E06391C5EECC5009F6F3A /* UnderPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderPhotoModel.m; sourceTree = "<group>"; };
+		3A9E063B1C5F24A4009F6F3A /* DisplayCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayCollectionViewCell.h; sourceTree = "<group>"; };
+		3A9E063C1C5F24A4009F6F3A /* DisplayCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayCollectionViewCell.m; sourceTree = "<group>"; };
+		3A9E063D1C5F24A4009F6F3A /* DisplayCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisplayCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A6AA0261C5C8D29009871DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A6AA0201C5C8D29009871DF = {
+			isa = PBXGroup;
+			children = (
+				3A6AA02B1C5C8D29009871DF /* FZJALAPhotos */,
+				3A6AA02A1C5C8D29009871DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A6AA02A1C5C8D29009871DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A6AA0291C5C8D29009871DF /* FZJALAPhotos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A6AA02B1C5C8D29009871DF /* FZJALAPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				3A6AA02F1C5C8D29009871DF /* AppDelegate.h */,
+				3A6AA0301C5C8D29009871DF /* AppDelegate.m */,
+				3A83AE911C5DEC7600CB8ABE /* Common */,
+				3A83AE941C5DEC7600CB8ABE /* View */,
+				3A83AE951C5DEC7600CB8ABE /* ViewController */,
+				3A6AA0351C5C8D29009871DF /* Main.storyboard */,
+				3A6AA0381C5C8D29009871DF /* Assets.xcassets */,
+				3A6AA03A1C5C8D29009871DF /* LaunchScreen.storyboard */,
+				3A6AA03D1C5C8D29009871DF /* Info.plist */,
+				3A6AA02C1C5C8D29009871DF /* Supporting Files */,
+			);
+			path = FZJALAPhotos;
+			sourceTree = "<group>";
+		};
+		3A6AA02C1C5C8D29009871DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A6AA02D1C5C8D29009871DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A83AE911C5DEC7600CB8ABE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3A83AE921C5DEC7600CB8ABE /* FZJALAPhotosTool.h */,
+				3A83AE931C5DEC7600CB8ABE /* FZJALAPhotosTool.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3A83AE941C5DEC7600CB8ABE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A9E06331C5EDC21009F6F3A /* FZJBigPhotoCell.h */,
+				3A9E06341C5EDC21009F6F3A /* FZJBigPhotoCell.m */,
+				3A9E06351C5EDC21009F6F3A /* FZJBigPhotoCell.xib */,
+				3A83AEA51C5DED2100CB8ABE /* EnterAlbumTableViewCell.h */,
+				3A83AEA61C5DED2100CB8ABE /* EnterAlbumTableViewCell.m */,
+				3A83AEA71C5DED2100CB8ABE /* EnterAlbumTableViewCell.xib */,
+				3A83AEAD1C5DF7AB00CB8ABE /* SmallCollectionViewCell.h */,
+				3A83AEAE1C5DF7AB00CB8ABE /* SmallCollectionViewCell.m */,
+				3A83AEAF1C5DF7AB00CB8ABE /* SmallCollectionViewCell.xib */,
+				3A9E063B1C5F24A4009F6F3A /* DisplayCollectionViewCell.h */,
+				3A9E063C1C5F24A4009F6F3A /* DisplayCollectionViewCell.m */,
+				3A9E063D1C5F24A4009F6F3A /* DisplayCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A83AE951C5DEC7600CB8ABE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3A9E06381C5EECC5009F6F3A /* UnderPhotoModel.h */,
+				3A9E06391C5EECC5009F6F3A /* UnderPhotoModel.m */,
+				3A83AE961C5DEC7600CB8ABE /* FZJViewController.h */,
+				3A83AE971C5DEC7600CB8ABE /* FZJViewController.m */,
+				3A83AE981C5DEC7600CB8ABE /* SuperViewController.h */,
+				3A83AE991C5DEC7600CB8ABE /* SuperViewController.m */,
+				3A83AE9A1C5DEC7600CB8ABE /* UnderTableViewController.h */,
+				3A83AE9B1C5DEC7600CB8ABE /* UnderTableViewController.m */,
+				3A83AEAA1C5DF5E200CB8ABE /* SmallViewController.h */,
+				3A83AEAB1C5DF5E200CB8ABE /* SmallViewController.m */,
+				3A9DCC031C5E1643009012AB /* BigViewController.h */,
+				3A9DCC041C5E1643009012AB /* BigViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A6AA0281C5C8D29009871DF /* FZJALAPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A6AA0401C5C8D29009871DF /* Build configuration list for PBXNativeTarget "FZJALAPhotos" */;
+			buildPhases = (
+				3A6AA0251C5C8D29009871DF /* Sources */,
+				3A6AA0261C5C8D29009871DF /* Frameworks */,
+				3A6AA0271C5C8D29009871DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FZJALAPhotos;
+			productName = FZJALAPhotos;
+			productReference = 3A6AA0291C5C8D29009871DF /* FZJALAPhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A6AA0211C5C8D29009871DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FZJ.com;
+				TargetAttributes = {
+					3A6AA0281C5C8D29009871DF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = M5JU2R9TYN;
+					};
+				};
+			};
+			buildConfigurationList = 3A6AA0241C5C8D29009871DF /* Build configuration list for PBXProject "FZJALAPhotos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A6AA0201C5C8D29009871DF;
+			productRefGroup = 3A6AA02A1C5C8D29009871DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A6AA0281C5C8D29009871DF /* FZJALAPhotos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A6AA0271C5C8D29009871DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9E063F1C5F24A4009F6F3A /* DisplayCollectionViewCell.xib in Resources */,
+				3A9E06371C5EDC21009F6F3A /* FZJBigPhotoCell.xib in Resources */,
+				3A6AA03C1C5C8D29009871DF /* LaunchScreen.storyboard in Resources */,
+				3A6AA0391C5C8D29009871DF /* Assets.xcassets in Resources */,
+				3A83AEA91C5DED2100CB8ABE /* EnterAlbumTableViewCell.xib in Resources */,
+				3A6AA0371C5C8D29009871DF /* Main.storyboard in Resources */,
+				3A83AEB11C5DF7AB00CB8ABE /* SmallCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A6AA0251C5C8D29009871DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A83AEAC1C5DF5E200CB8ABE /* SmallViewController.m in Sources */,
+				3A9E063A1C5EECC5009F6F3A /* UnderPhotoModel.m in Sources */,
+				3A6AA0311C5C8D29009871DF /* AppDelegate.m in Sources */,
+				3A6AA02E1C5C8D29009871DF /* main.m in Sources */,
+				3A83AE9F1C5DEC7600CB8ABE /* UnderTableViewController.m in Sources */,
+				3A9E06361C5EDC21009F6F3A /* FZJBigPhotoCell.m in Sources */,
+				3A83AE9C1C5DEC7600CB8ABE /* FZJALAPhotosTool.m in Sources */,
+				3A9E063E1C5F24A4009F6F3A /* DisplayCollectionViewCell.m in Sources */,
+				3A83AE9E1C5DEC7600CB8ABE /* SuperViewController.m in Sources */,
+				3A83AEB01C5DF7AB00CB8ABE /* SmallCollectionViewCell.m in Sources */,
+				3A9DCC051C5E1643009012AB /* BigViewController.m in Sources */,
+				3A83AE9D1C5DEC7600CB8ABE /* FZJViewController.m in Sources */,
+				3A83AEA81C5DED2100CB8ABE /* EnterAlbumTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A6AA0351C5C8D29009871DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A6AA0361C5C8D29009871DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A6AA03A1C5C8D29009871DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A6AA03B1C5C8D29009871DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A6AA03E1C5C8D29009871DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A6AA03F1C5C8D29009871DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A6AA0411C5C8D29009871DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FZJALAPhotos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fuzongjian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A6AA0421C5C8D29009871DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FZJALAPhotos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fuzongjian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A6AA0241C5C8D29009871DF /* Build configuration list for PBXProject "FZJALAPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A6AA03E1C5C8D29009871DF /* Debug */,
+				3A6AA03F1C5C8D29009871DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A6AA0401C5C8D29009871DF /* Build configuration list for PBXNativeTarget "FZJALAPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A6AA0411C5C8D29009871DF /* Debug */,
+				3A6AA0421C5C8D29009871DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A6AA0211C5C8D29009871DF /* Project object */;
+}
